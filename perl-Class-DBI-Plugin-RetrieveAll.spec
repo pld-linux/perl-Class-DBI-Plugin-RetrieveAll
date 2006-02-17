@@ -8,13 +8,13 @@
 Summary:	Determine type information for columns
 Summary(pl):	Okre¶lanie informacji o typie dla kolumn
 Name:		perl-Class-DBI-Plugin-RetrieveAll
-Version:	1.01
+Version:	1.04
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	27dd0db083dd0127a2704bf55c29b8a8
+# Source0-md5:	859fe774e6d74636b6406b821d4d66d1
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
@@ -29,8 +29,8 @@ This module allows Class::DBI-based classes to query their columns for
 data type information in a database-independent manner.
 
 %description -l pl
-Ten modu³ pozwala klasom opartym na Class::DBI na odpytywanie kolumn
-o informacje o typie w sposób niezale¿ny od bazy danych.
+Ten modu³ pozwala klasom opartym na Class::DBI na odpytywanie kolumn o
+informacje o typie w sposób niezale¿ny od bazy danych.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
