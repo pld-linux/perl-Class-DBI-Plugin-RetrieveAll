@@ -6,7 +6,7 @@
 %define		pdir	Class
 %define		pnam	DBI-Plugin-RetrieveAll
 Summary:	Determine type information for columns
-Summary(pl.UTF-8):   Określanie informacji o typie dla kolumn
+Summary(pl.UTF-8):	Określanie informacji o typie dla kolumn
 Name:		perl-Class-DBI-Plugin-RetrieveAll
 Version:	1.04
 Release:	1
