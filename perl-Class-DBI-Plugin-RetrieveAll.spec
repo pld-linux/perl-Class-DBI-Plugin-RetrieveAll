@@ -2,9 +2,9 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Class
 %define		pnam	DBI-Plugin-RetrieveAll
+%include	/usr/lib/rpm/macros.perl
 Summary:	Determine type information for columns
 Summary(pl.UTF-8):	Określanie informacji o typie dla kolumn
 Name:		perl-Class-DBI-Plugin-RetrieveAll
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	859fe774e6d74636b6406b821d4d66d1
+URL:		http://search.cpan.org/dist/Class-DBI-Plugin-RetrieveAll/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
