@@ -8,7 +8,7 @@ Summary:	Determine type information for columns
 Summary(pl.UTF-8):	Określanie informacji o typie dla kolumn
 Name:		perl-Class-DBI-Plugin-RetrieveAll
 Version:	1.04
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
